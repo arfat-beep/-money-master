@@ -25,28 +25,29 @@
           <input type="text" id="food" />
         </div>
         <div class="input-box">
-          <label for="rend">Rend:</label>
-          <input type="text" id="rend" />
+          <label for="rent">Rent:</label>
+          <input type="text" id="rent" />
         </div>
         <div class="input-box">
           <label for="clothes">Clothes:</label>
           <input type="text" id="clothes" />
         </div>
-        <button>Calculate</button>
+        <button id="calculate">Calculate</button>
         <div class="calculation-error">awe</div>
         <div class="calculation">
-          <h4>Total Expenses: <span>5500</span></h4>
-          <h4>Balance: <span>4500</span></h4>
+          <h4>Total Expenses: <span id="total-expenses">00</span></h4>
+          <h4>Balance: <span id="balance">00</span></h4>
         </div>
         <div class="saving">
           <label for="save">Save</label>
-          <input type="text" id="save" /> <span>%</span>
+          <input type="text" id="save" />
+          <span style="margin: 0 20px">%</span>
           <button>save</button>
         </div>
         <div class="calculation-error">awe</div>
         <div class="calculation">
-          <h4>Saving Amount: <span>2000</span></h4>
-          <h4>Remaining Balance: <span>2500</span></h4>
+          <h4>Saving Amount: <span id="savings">00</span></h4>
+          <h4>Remaining Balance: <span id="remaining">00</span></h4>
         </div>
       </div>
     </main>
