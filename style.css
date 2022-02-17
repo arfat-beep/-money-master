@@ -51,16 +51,7 @@ main {
   gap: 30px;
   align-items: center;
 }
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 20px;
-  }
-  main .img img {
-    width: 100%;
-  }
-}
+
 main .img img {
   width: 100%;
 }
@@ -87,4 +78,26 @@ main .calculation-column .saving {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
 }
+.error {
+  background-color: rgb(255, 0, 0);
+  width: 70%;
+  margin: 20px auto;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px 0;
+  display: none;
+}
 /* main style end  */
+
+/* mobile responsive start  */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+  }
+  main .img img {
+    width: 100%;
+  }
+}
+/* mobile responsive end  */
